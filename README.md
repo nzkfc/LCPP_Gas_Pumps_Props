@@ -13,6 +13,9 @@ If LCPP does a FiveM patch in the future, you MUST check that they have not adde
 1. Place the `lcpp_gas_pumps` folder into your FiveM/RP Framework resources folder, e.g., `[defaultmaps]` or whatever you use**.
 **No need to edit `server.cfg` as `[defaultmaps]` will be in there by default. If you dumped the folder into the `resources` folder on its own, add `ensure lcpp_gas_pumps` to your `server.cfg` towards the bottom of your resources list.
 2. Cut `Ctrl+X` the `libertycity` folder from within `lcpp_gas_pumps` and then paste `Ctrl+V` into the folder that has your `libertycity` folder from the LCPP map files. This will automatically place the files into the right subfolders.
+
+https://github.com/user-attachments/assets/0ba45212-a175-41e7-acef-99dd7dc8b6f6
+
 3. Click ok to replace files.
 
 ## TP Coordinates:
