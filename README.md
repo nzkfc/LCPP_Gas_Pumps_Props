@@ -1,14 +1,19 @@
 # lcpp_gas_pumps_props
 
-Adds fuel pump props to the map for the Liberty City Preservation Project: https://worldtravel.dev/
+Adds GTAV modern fuel pump props to the map for the Liberty City Preservation Project: https://worldtravel.dev/
 
 Thanks to hrdbdyz and his LegacyFuel for LC script edit, for easier access to where each gas station was: https://discord.com/channels/1297057471034167369/1323872021293306007/1323872021293306007
 
-Includes all LC native gas stations and includes two custom fueling scenes at the Airport and Airdock landing pads for Helicopters.
+Includes all LC native gas stations and includes two custom fueling scenes at the Airport and Airdock landing pads for Helicopters. Includes an edited prop_gas_pump_old2 prop for the Terroroil pump as I couldn't get a modern version of the RON pump working with a replaced texture for branding.
+
+WARNING: This includes two replacement YMAP files that replace the original LPCC files, these are to hide the native pump props under the ground as sometimes they were spawning in fine and causing duplication visual glitches, etc. I've included backups of the original files also e.g. `nj_01_stream4.ymapBACKUP` and `queens_w_stream10.ymapBACKUP`
+If LCPP does a FiveM patch in the future, you MUST check that they have not added these two files to the patch, if they have, I need to release an update. The chance that they change anything on the ymap is very low however.
 
 ## How To Install:
-1. Place the `lc_gas_pumps` folder into your FiveM/RP Framework resources folder, e.g., `[defaultmaps]` or whatever you use.
-2. No need to edit `server.cfg` as `[defaultmaps]` will be in there by default. If you dumped the folder into the `resources` folder on its own, add `ensure lc_gas_pumps` to your `server.cfg` towards the bottom of your resources list.
+1. Place the `lcpp_gas_pumps` folder into your FiveM/RP Framework resources folder, e.g., `[defaultmaps]` or whatever you use**.
+**No need to edit `server.cfg` as `[defaultmaps]` will be in there by default. If you dumped the folder into the `resources` folder on its own, add `ensure lcpp_gas_pumps` to your `server.cfg` towards the bottom of your resources list.
+2. Cut `Ctrl+X` the `libertycity` folder from within `lcpp_gas_pumps` and then paste `Ctrl+V` into the folder that has your `libertycity` folder from the LCPP map files. This will automatically place the files into the right subfolders.
+3. Click ok to replace files.
 
 ## TP Coordinates:
 - `/tp 6641.7 -1542.51 16.34`
@@ -26,8 +31,8 @@ Includes all LC native gas stations and includes two custom fueling scenes at th
 - `/tp 5595.31 -3905.29 4.69` (Dock Heliport)
 
 ## Pump Models for Fuel Scripts:
-- `bm_gaspump`
-- `bm_gaspump2`
-- `bm_gaspump3`
+- `prop_gas_pump_1a`
+- `prop_gas_pump_1b`
+- `prop_gas_pump_old2`
 - `prop_air_fueltrail1`
 - `prop_air_fueltrail2`
