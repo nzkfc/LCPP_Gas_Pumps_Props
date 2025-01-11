@@ -20,7 +20,6 @@ Thanks to hrdbdyz and his LegacyFuel for LC script edit, for easier access to wh
 
 1. **Move `lcpp_gas_pumps` to your resources folder**:  
    Place the `lcpp_gas_pumps` folder into your FiveM/RP Framework resources folder (e.g., `[defaultmaps]` or any similar folder).  
-   **Note**: If `[defaultmaps]` is already included in `server.cfg`, no further action is needed.  
 
    If you placed the folder directly into the `resources` directory, add this line to your `server.cfg` at the bottom of your resources list:  
    ```plaintext
