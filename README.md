@@ -10,9 +10,9 @@ Thanks to hrdbdyz and his LegacyFuel for LC script edit, for easier access to wh
 - Edited `prop_gas_pump_old2` to create a Terroroil-branded pump since the RON pump could not be replaced with a modern texture.
 
 ## Important Notes
-- Includes **two replacement YMAP files** (`nj_01_stream4.ymap` and `queens_w_stream10.ymap`) to hide the native pump props under the ground. This prevents visual glitches caused by duplicate props.
-- Backup files for the originals are included (`nj_01_stream4.ymapBACKUP` and `queens_w_stream10.ymapBACKUP`).
-- If LCPP releases a FiveM patch in the future, verify that these two YMAP files have not been altered. If they have, an update will be required. However, changes to these files are unlikely.
+- Includes **replacement YMAP files** to hide the native pump props under the ground (-1000 z-axis). This prevents visual glitches caused by duplicate props spawning.
+- Backup files for the originals are included e.g. (`nj_01_stream4.ymap-BACKUP-` and `queens_w_stream10.ymap-BACKUP-`).
+- If LCPP releases a FiveM patch in the future, verify that these YMAP files have not been altered (e.g. included in the update pack). If they have, an update will be required from me to check the changes. However, changes to these files are unlikely.
 
 ---
 
@@ -27,6 +27,7 @@ Thanks to hrdbdyz and his LegacyFuel for LC script edit, for easier access to wh
    ```
 
 2. **Move the `libertycity` folder**:  
+:warning: CAUTION: I highly suggeest you take a copy of this folder (`dlc`) and put it somewhere safe before you do the below line!!!: `libertycity\stream\dlc` :warning:
    Cut (`Ctrl+X`) the `libertycity` folder from inside `lcpp_gas_pumps` and paste (`Ctrl+V`) it into your existing `libertycity` folder from the LCPP map files. This will automatically place the files into the correct subfolders.
 
 https://github.com/user-attachments/assets/0ba45212-a175-41e7-acef-99dd7dc8b6f6
