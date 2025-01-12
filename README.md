@@ -28,6 +28,7 @@ Thanks to hrdbdyz and his LegacyFuel for LC script edit, for easier access to wh
 
 2. **Move the `libertycity` folder**:  
 :warning: CAUTION: I highly suggeest you take a copy of this folder (`dlc`) and put it somewhere safe before you do the below line!!!: `libertycity\stream\dlc` :warning:
+
    Cut (`Ctrl+X`) the `libertycity` folder from inside `lcpp_gas_pumps` and paste (`Ctrl+V`) it into your existing `libertycity` folder from the LCPP map files. This will automatically place the files into the correct subfolders.
 
 https://github.com/user-attachments/assets/0ba45212-a175-41e7-acef-99dd7dc8b6f6
